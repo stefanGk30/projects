@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #2e4c6d;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.section-center {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 1200px;
+}
+
+.title {
+  color: #daddfc;
+  text-align: center;
+  margin: 5rem;
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.single-item {
+  padding: 0.5rem 1rem;
+  padding: 1rem 2rem;
+  background: rgb(207, 207, 207);
+  border-radius: 10px;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.single-title {
+  color: #2e4c6d;
+  margin: 0.5rem;
+  text-align: center;
+  text-transform: capitalize;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.proj-img {
+  border-radius: 10px;
+}
+
+.info {
+  padding: 1.3rem 0 0.5rem 0;
+  font-weight: bold;
+}
+
+.info-icon {
+  font-size: 1.8rem;
+  margin-right: 1rem;
+  user-select: none;
+}
+
+.info-icon:nth-child(1) {
+  color: rgb(195, 127, 0);
+}
+.info-icon:nth-child(2) {
+  color: rgb(0, 0, 192);
+}
+.info-icon:nth-child(3) {
+  color: rgb(255, 255, 148);
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-btn {
+  font-size: 1.2rem;
+  padding: 0.5rem 0.1rem;
+  transition: all 0.3s ease-in;
+}
+
+.link-btn:hover {
+  background: #2e4c6d;
+  color: rgb(207, 207, 207);
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 1176px) {
+  .btns span {
+    display: block;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  span {
+    display: inline;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 325px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .single-item {
+    padding: 0.5rem;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .link-btn {
+    font-size: 0.8rem;
+  }
+}
