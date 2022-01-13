@@ -59,4 +59,16 @@ export default [
       '<i class="fab fa-js-square"></i>',
     ],
   },
+  {
+    id: 5,
+    name: 'bookmark landing page',
+    netlify: 'https://landing-bookmark-front-end-mentor.netlify.app/',
+    github: 'https://github.com/stefanGk30/bookmark-landing-FEM',
+    img: './data/images/6.jpg',
+    info: [
+      '<i class="fab fa-html5"></i>',
+      '<i class="fab fa-css3-alt"></i>',
+      '<i class="fab fa-js-square"></i>',
+    ],
+  },
 ];
