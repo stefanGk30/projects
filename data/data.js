@@ -1,5 +1,17 @@
 export default [
   {
+    id: 0,
+    name: 'music ehop',
+    netlify: 'https://music-eshop.netlify.app/',
+    github: 'https://github.com/stefanGk30/music-eshop',
+    img: './data/images/7.jpg',
+    info: [
+      '<i class="fab fa-html5"></i>',
+      '<i class="fab fa-css3-alt"></i>',
+      '<i class="fab fa-js-square"></i>',
+    ],
+  },
+  {
     id: 1,
     name: 'countries',
     netlify: 'https://countries-front-end-mentor-practice.netlify.app/',

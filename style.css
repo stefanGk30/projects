@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-color: #2e4c6d;
+}
+
 body {
   font-family: sans-serif;
-  background: #2e4c6d;
+  background: var(--main-color);
 }
 
 button {
@@ -58,7 +62,7 @@ img {
 }
 
 .single-title {
-  color: #2e4c6d;
+  color: var(--main-color);
   margin: 0.5rem;
   text-align: center;
   text-transform: capitalize;
@@ -77,25 +81,10 @@ img {
   font-weight: bold;
 }
 
-.info-icon {
-  font-size: 1.8rem;
-  margin-right: 1rem;
-  user-select: none;
-}
-
-.info-icon:nth-child(1) {
-  color: rgb(195, 127, 0);
-}
-.info-icon:nth-child(2) {
-  color: rgb(0, 0, 192);
-}
-.info-icon:nth-child(3) {
-  color: rgb(255, 255, 148);
-}
-
 .btns {
   display: flex;
   justify-content: space-between;
+  margin-top: 3rem;
 }
 
 .link-btn {
